@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kaggle Learning Path Checklist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button class="toggle-dark" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+  <h1>Kaggle Learning Path Checklist</h1>
+
+  <p style="text-align:center;">
+    <a href="https://www.kaggle.com/account/login?phase=startRegisterTab" target="_blank">🔐 Sign Up on Kaggle</a> |
+    <a href="https://www.kaggle.com/learn" target="_blank">📚 Learn More</a>
+  </p>
+
+  <div class="progress-container">
+    <div class="progress-bar" id="progress-bar">0%</div>
+  </div>
+
+  <section>
+    <h2>📘 1. Fundamentals</h2>
+    <label><input type="checkbox" id="intro-prog"> Intro to Programming</label>
+    <label><input type="checkbox" id="python"> Python</label>
+    <label><input type="checkbox" id="pandas"> Pandas</label>
+    <label><input type="checkbox" id="intro-ml"> Intro to Machine Learning</label>
+  </section>
+
+  <section>
+    <h2>📊 2. Core Data Skills</h2>
+    <label><input type="checkbox" id="viz"> Data Visualization</label>
+    <label><input type="checkbox" id="clean"> Data Cleaning</label>
+    <label><input type="checkbox" id="sql1"> Intro to SQL</label>
+    <label><input type="checkbox" id="sql2"> Advanced SQL</label>
+  </section>
+
+  <section>
+    <h2>🤖 3. Intermediate Machine Learning</h2>
+    <label><input type="checkbox" id="iml"> Intermediate Machine Learning</label>
+    <label><input type="checkbox" id="feat"> Feature Engineering</label>
+    <label><input type="checkbox" id="ts"> Time Series</label>
+    <label><input type="checkbox" id="explain"> Machine Learning Explainability</label>
+  </section>
+
+  <section>
+    <h2>🧠 4. Deep Learning & AI</h2>
+    <label><input type="checkbox" id="dl"> Intro to Deep Learning</label>
+    <label><input type="checkbox" id="cv"> Computer Vision</label>
+    <label><input type="checkbox" id="gameai"> Intro to Game AI and Reinforcement Learning</label>
+  </section>
+
+  <section>
+    <h2>🌐 5. Specialized Topics</h2>
+    <label><input type="checkbox" id="geo"> Geospatial Analysis</label>
+    <label><input type="checkbox" id="ethics"> Intro to AI Ethics</label>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
