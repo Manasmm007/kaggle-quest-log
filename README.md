@@ -12,7 +12,7 @@ A simple and elegant web-based checklist to track your progress through Kaggle's
 
 ## 📸 Preview
 
-![Kaggle Checklist Preview](https://github.com/user-attachments/assets/a61c938f-425c-4263-864c-5cfd159c181d)
+![Kaggle Checklist Preview](assets/screenshot.png)
 
 ## 🛠️ Tech Stack
 
@@ -31,4 +31,6 @@ A simple and elegant web-based checklist to track your progress through Kaggle's
 .
 ├── index.html       # Main UI structure
 ├── style.css        # Custom styles and dark mode
-└── script.js        # Progress tracking logic
+├── script.js        # Progress tracking logic
+└── assets/
+    └── screenshot.png   # Project preview image
