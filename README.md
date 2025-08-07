@@ -1,6 +1,8 @@
 # 🧠 Kaggle Learning Path Checklist
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Manasmm007/kaggle-quest-log?style=social)
+[![GitHub Pages](https://img.shields.io/badge/live-demo-blue?logo=github)](https://manasmm007.github.io/kaggle-quest-log/)  
+🔗 **Live Demo:** [manasmm007.github.io/kaggle-quest-log](https://manasmm007.github.io/kaggle-quest-log/)
 
 A simple and elegant web-based checklist to track your progress through Kaggle's learning courses. This tool helps you visualize your journey, stay motivated, and complete all the essential Data Science and Machine Learning tracks offered by Kaggle.
 
